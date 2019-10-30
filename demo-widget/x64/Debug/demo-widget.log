@@ -1,0 +1,4 @@
+﻿  Generate moc_predefs.h
+  ImGuiRenderer.cpp
+C:\Users\Kovalev\Documents\414135\ImGuiRenderer.cpp(115,113): warning C4267: аргумент: преобразование из "size_t" в "const int"; возможна потеря данных
+  demo-widget.vcxproj -> C:\Users\Kovalev\Documents\414135\demo-widget\debug\demo-widget.exe

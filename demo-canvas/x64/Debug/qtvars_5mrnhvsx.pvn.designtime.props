@@ -1,0 +1,42 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_LOCATION_LIB;QT_POSITIONINGQUICK_LIB;QT_QUICK_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_GUI_LIB;QT_POSITIONING_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>C:/Qt/5.12.5/msvc2017_64/include;C:/Qt/5.12.5/msvc2017_64/include/QtLocation;C:/Qt/5.12.5/msvc2017_64/include/QtPositioningQuick;C:/Qt/5.12.5/msvc2017_64/include/QtQuick;C:/Qt/5.12.5/msvc2017_64/include/QtQml;C:/Qt/5.12.5/msvc2017_64/include/QtNetwork;C:/Qt/5.12.5/msvc2017_64/include/QtGui;C:/Qt/5.12.5/msvc2017_64/include/QtANGLE;C:/Qt/5.12.5/msvc2017_64/include/QtPositioning;C:/Qt/5.12.5/msvc2017_64/include/QtCore</Qt_INCLUDEPATH_>
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\5.12.5\msvc2017_64\lib\Qt5Locationd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\5.12.5\msvc2017_64\lib\Qt5PositioningQuickd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\5.12.5\msvc2017_64\lib\Qt5Positioningd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\5.12.5\msvc2017_64\lib\Qt5Quickd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\5.12.5\msvc2017_64\lib\Qt5Guid.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\5.12.5\msvc2017_64\lib\Qt5Qmld.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\5.12.5\msvc2017_64\lib\Qt5Networkd.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\5.12.5\msvc2017_64\lib\Qt5Cored.lib</Qt_LIBS_> 
+<Qt_LIBS_>$(Qt_LIBS_);C:\Qt\5.12.5\msvc2017_64\lib\qtmaind.lib</Qt_LIBS_> 
+<Qt_LIBPATH_>$(Qt_LIBPATH_);C:\openssl\lib</Qt_LIBPATH_> 
+<Qt_LIBPATH_>$(Qt_LIBPATH_);C:\Utils\my_sql\mysql-5.6.11-winx64\lib</Qt_LIBPATH_> 
+<Qt_LIBPATH_>$(Qt_LIBPATH_);C:\Utils\postgresql\pgsql\lib</Qt_LIBPATH_> 
+<Qt_LIBS_>$(Qt_LIBS_);shell32.lib</Qt_LIBS_> 
+<Qt_INCLUDEPATH_
+      >$(Qt_INCLUDEPATH_);Debug</Qt_INCLUDEPATH_>
+    <QtBkup_QtInstall
+      >msvc2017_64</QtBkup_QtInstall>
+    <QtBkup_QtModules
+      >core;network;gui;location;qml;positioning;quick</QtBkup_QtModules>
+    <QtBkup_QtPathBinaries
+      >bin</QtBkup_QtPathBinaries>
+    <QtBkup_QtPathLibraryExecutables
+      >bin</QtBkup_QtPathLibraryExecutables>
+    <QtBkup_QtHeaderSearchPath
+      ></QtBkup_QtHeaderSearchPath>
+    <QtBkup_QtLibrarySearchPath
+      ></QtBkup_QtLibrarySearchPath>
+    <QtBkup_QtVariables
+      >DEFINES;INCLUDEPATH;LIBS</QtBkup_QtVariables>
+    <QtBkup_QMakeCodeLines
+      ></QtBkup_QMakeCodeLines>
+  </PropertyGroup>
+  <ItemGroup>
+    <QtVar Include="Qt_DEFINES_"><Value>$(Qt_DEFINES_)</Value></QtVar>
+<QtVar Include="Qt_INCLUDEPATH_"><Value>$(Qt_INCLUDEPATH_)</Value></QtVar>
+<QtVar Include="Qt_LIBS_"><Value>$(Qt_LIBS_)</Value></QtVar>
+  </ItemGroup>
+</Project>

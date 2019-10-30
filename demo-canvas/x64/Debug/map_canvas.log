@@ -1,0 +1,9 @@
+﻿  Generate moc_predefs.h
+  Rcc'ing qml.qrc...
+  Moc'ing PolylineModel.h...
+  PolylineModel.cpp
+  main.cpp
+  trace.cpp
+  qrc_qml.cpp
+  moc_PolylineModel.cpp
+  map_canvas.vcxproj -> C:\source\sds\map_canvas\debug\map_canvas.exe
